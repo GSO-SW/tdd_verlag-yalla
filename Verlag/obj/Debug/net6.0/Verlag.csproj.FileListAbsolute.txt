@@ -1,0 +1,15 @@
+\\BK175055\salihazad.s\Desktop\Git\tdd_verlag-yalla\Verlag\bin\Debug\net6.0\Verlag.exe
+\\BK175055\salihazad.s\Desktop\Git\tdd_verlag-yalla\Verlag\bin\Debug\net6.0\Verlag.deps.json
+\\BK175055\salihazad.s\Desktop\Git\tdd_verlag-yalla\Verlag\bin\Debug\net6.0\Verlag.runtimeconfig.json
+\\BK175055\salihazad.s\Desktop\Git\tdd_verlag-yalla\Verlag\bin\Debug\net6.0\Verlag.dll
+\\BK175055\salihazad.s\Desktop\Git\tdd_verlag-yalla\Verlag\bin\Debug\net6.0\Verlag.pdb
+\\BK175055\salihazad.s\Desktop\Git\tdd_verlag-yalla\Verlag\obj\Debug\net6.0\Verlag.csproj.AssemblyReference.cache
+\\BK175055\salihazad.s\Desktop\Git\tdd_verlag-yalla\Verlag\obj\Debug\net6.0\Verlag.GeneratedMSBuildEditorConfig.editorconfig
+\\BK175055\salihazad.s\Desktop\Git\tdd_verlag-yalla\Verlag\obj\Debug\net6.0\Verlag.AssemblyInfoInputs.cache
+\\BK175055\salihazad.s\Desktop\Git\tdd_verlag-yalla\Verlag\obj\Debug\net6.0\Verlag.AssemblyInfo.cs
+\\BK175055\salihazad.s\Desktop\Git\tdd_verlag-yalla\Verlag\obj\Debug\net6.0\Verlag.csproj.CoreCompileInputs.cache
+\\BK175055\salihazad.s\Desktop\Git\tdd_verlag-yalla\Verlag\obj\Debug\net6.0\Verlag.dll
+\\BK175055\salihazad.s\Desktop\Git\tdd_verlag-yalla\Verlag\obj\Debug\net6.0\refint\Verlag.dll
+\\BK175055\salihazad.s\Desktop\Git\tdd_verlag-yalla\Verlag\obj\Debug\net6.0\Verlag.pdb
+\\BK175055\salihazad.s\Desktop\Git\tdd_verlag-yalla\Verlag\obj\Debug\net6.0\Verlag.genruntimeconfig.cache
+\\BK175055\salihazad.s\Desktop\Git\tdd_verlag-yalla\Verlag\obj\Debug\net6.0\ref\Verlag.dll
