@@ -102,8 +102,12 @@ namespace VerlagTests
 		[ExpectedException(typeof(ArgumentException))]
 		public void Autor_NurSinnvolleEingabenErlaubt(string unerlaubtesZeichen)
 		{
+			//Arrange
+			string name = "Salih";
+			name = name + unerlaubtesZeichen;
+
 			//Act
-			Buch b = new Buch(unerlaubtesZeichen, "titel");
+			Buch b = new Buch(name, "titel");
 		}
 	}
 }

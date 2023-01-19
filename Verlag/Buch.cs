@@ -13,8 +13,17 @@ namespace Verlag
         private int auflage = 1;
 
         public Buch(string autor, string titel)
-        { 
+        {
+
+            string letters = "";
+            for (int i = 97; i <= 122; i++)
+            {
+                letters = letters + Convert.ToChar(i);
+
+            }
+            
             this.autor = autor;
+
             this.titel = titel;
         }
 
