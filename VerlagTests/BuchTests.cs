@@ -91,6 +91,7 @@ namespace VerlagTests
 			b.Auflage = auflageNeu;
 		}
 
+
 		// DataRow: https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest#add-more-features
 		[TestMethod]
 		[DataRow("")]
@@ -100,10 +101,14 @@ namespace VerlagTests
 		[DataRow("%")]
 		[DataRow(null)]
 		[ExpectedException(typeof(ArgumentException))]
-		public void Autor_NurSinnvolleEingabenErlaubt(string unerlaubtesZeichen)
+
+		public void Autor_NurSinnvolleEingabenErlaubt(string unerlaubteszeichen)
 		{
-			//Act
-			Buch b = new Buch(unerlaubtesZeichen, "titel");
+			//Arrange
+			string name = "Scha";
+			name = name + unerlaubteszeichen;
+            //Act
+            Buch b = new Buch(name, "titel");
 		}
 	}
 }
