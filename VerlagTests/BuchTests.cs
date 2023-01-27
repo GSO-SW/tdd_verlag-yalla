@@ -105,7 +105,7 @@ namespace VerlagTests
 		public void Autor_NurSinnvolleEingabenErlaubt(string unerlaubteszeichen)
 		{
 			//Arrange
-			string name = "Scha";
+			string name = "Scha$";
 			name = name + unerlaubteszeichen;
             //Act
             Buch b = new Buch(name, "titel");

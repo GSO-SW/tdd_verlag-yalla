@@ -9,17 +9,17 @@
 
         public Buch(string autor, string titel)
         {
-            if (autor == "" || autor.Contains("#") || autor.Contains(";") || autor.Contains("§") || autor.Contains("%") || autor == Convert.ToBase64String(null))
-            {
-                throw new ArgumentException("Name des Authors ist unzulässig");
-            }
-            else
-            {
-                this.autor = autor;
-            }
+            char[] letters = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', };
+            string test = "abcdefghijklmnopqrstuvwxyz";
 
-            this.titel = titel;
-            auflage = 1;
+            for(int i = 0; i < autor.Length; i++)
+            {
+                if (test.Contains(autor[i]) == false)
+                {
+                    throw new ArgumentException("test");
+                }
+                
+            } 
         }
 
 
