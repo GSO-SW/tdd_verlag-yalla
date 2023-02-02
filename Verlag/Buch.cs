@@ -21,7 +21,16 @@ namespace Verlag
                 letters = letters + Convert.ToChar(i);
 
             }
-            
+            letters = letters + letters.ToUpper() + '.' + ' ';
+            for (int i =0; i < autor.Length; i++)
+            {
+
+                if (letters.Contains(autor[i]) == false)
+                {
+                    throw new ArgumentException("Unerlaubte Buchstaben in den Namen");
+                }
+
+            }
             this.autor = autor;
 
             this.titel = titel;
