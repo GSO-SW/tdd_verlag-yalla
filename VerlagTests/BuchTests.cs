@@ -109,5 +109,26 @@ namespace VerlagTests
 			//Act
 			Buch b = new Buch(name, "titel");
 		}
-	}
+
+		[TestMethod]
+		public void Buch_BuchKannMitISBNNummerErstelltWerden()
+		{
+            //Arange
+            string autor = "Salih";
+            string titel = "Der beste";
+            string isbn13 = "978-3770436163";
+
+            Buch test = new Buch(autor, titel);
+
+            //Act
+            test.ISBN = isbn13;
+
+			//Assert
+			Assert.AreEqual(test.Autor = autor);
+            Assert.AreEqual(test.Titel = autor);
+            Assert.AreEqual(test.ISBN.sibn13 = isbnN);
+
+        }
+
+    }
 }

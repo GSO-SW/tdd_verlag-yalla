@@ -11,6 +11,7 @@ namespace Verlag
         private string autor;
         private string titel;
         private int auflage = 1;
+        private ISBN isbn13;
 
         public Buch(string autor, string titel)
         {
@@ -46,7 +47,7 @@ namespace Verlag
             {
                 throw new ArgumentOutOfRangeException();
             }
-        }
+        }}
 
         public string Autor
         {
@@ -72,5 +73,8 @@ namespace Verlag
                 }
             }
         }
+        public string ISBN
+        {
+            get { return this.ISBN; }
     }
 }
